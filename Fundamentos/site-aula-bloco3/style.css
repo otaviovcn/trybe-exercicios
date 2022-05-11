@@ -1,6 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
-
 }
 
 p,
@@ -15,7 +19,8 @@ h4 {
 }
 
 .trybe-green {
-  color: #11a36a;;
+  color: #11a36a;
+  ;
 }
 
 .hero-title {
@@ -46,4 +51,28 @@ h4 {
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
-} 
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.header {
+  background-image: url(./imagens-site/smiling-man.jpg);
+  background-size: cover;
+  background-position: 50% 25%;
+  padding: 60px 60px 40px;
+}
+
+.header-content {
+  width: 50%;
+  padding-left: 60px;
+  
+}
+
+.header-content p {
+  width: 80%;
+}
+
+.text-centered {
+  
+}
