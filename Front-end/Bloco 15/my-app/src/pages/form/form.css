@@ -1,0 +1,59 @@
+body {
+  background-color: white;
+}
+
+#section-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin: 280px; */
+  width: 600px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: rgb(236, 236, 236);
+}
+
+.labels {
+  display: flex;
+  flex-direction: column;
+}
+
+#input-name {
+  margin: 10px ;
+  width: 400px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+#input-email {
+  margin: 10px ;
+  width: 400px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+#area {
+  margin: 10px ;
+  width: 400px;
+  height: 25px;
+  text-align: center;
+}
+
+#submit-button {
+  background-color: green;
+  color: blanchedalmond;
+  margin: 10px;
+  width: 200px;
+  height: 35px;
+  border-radius: 3px;
+}
